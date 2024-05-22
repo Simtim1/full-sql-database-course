@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS suppliers CASCADE;
 
 -- Create employees table 
 CREATE TABLE employees (
-    employee_id INT PRIMARY KEY,
+    employee_id PRIMARY KEY,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     email VARCHAR(50),
